@@ -13,7 +13,7 @@ curl http://localhost:3000/api/v1/entities/workspaces \
           "relationships": {
             "parent": {
                 "data": {
-                  "id": "headquarters",
+                  "id": "demo_ws",
                   "type": "workspace"
                 }
             }

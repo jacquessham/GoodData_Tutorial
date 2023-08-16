@@ -1,0 +1,48 @@
+{
+  "workspaceDataFilters": [
+    {
+      "id": "region",
+      "title": "Customer Region",
+      "columnName": "wdf__region",
+      "workspace": {
+        "id": "headoffice",
+        "type": "workspace"
+      },
+      "workspaceDataFilterSettings": [
+        {
+          "id": "region_west",
+          "title": "Western States",
+          "filterValues": [
+            "West"
+          ],
+          "workspace": {
+            "id": "western",
+            "type": "workspace"
+          }
+        }
+      ]
+    },
+    {
+      "id": "state",
+      "title": "Customer State",
+      "columnName": "wdf__state",
+      "workspace": {
+        "id": "western",
+        "type": "workspace"
+      },
+      "workspaceDataFilterSettings": [
+        {
+          "id": "state_california",
+          "title": "California",
+          "filterValues": [
+            "California"
+          ],
+          "workspace": {
+            "id": "california",
+            "type": "workspace"
+          }
+        }
+      ]
+    }
+  ]
+}
