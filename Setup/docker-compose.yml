@@ -11,10 +11,9 @@ services:
       - gooddata-cn-ce-data:/data_gdtutorial
     environment:
       LICENSE_AND_PRIVACY_POLICY_ACCEPTED: "YES"
-      BUNDLE_TYPE: "gdc"
       APP_LOGLEVEL: "INFO"
 
-  sfodb-postgres:
+  gdtutorial-postgres:
     image: postgres:14.2
     container_name: gooddata-postgres
     environment:
@@ -31,4 +30,4 @@ services:
 
 volumes:
   gooddata-cn-ce-data:
-  local-postgres:
+  gdtutorial-postgres:
