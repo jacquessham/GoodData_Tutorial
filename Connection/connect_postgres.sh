@@ -1,4 +1,4 @@
-# Establish connection with Postgres
+# Establish connection between GoodData and Postgres
 curl http://localhost:3000/api/v1/entities/dataSources \
   -H "Content-Type: application/vnd.gooddata.api+json" \
   -H "Accept: application/vnd.gooddata.api+json" \
@@ -19,7 +19,7 @@ curl http://localhost:3000/api/v1/entities/dataSources \
       }
   }'
 
-# Scan and save the physical model in JSON
+# Scan and save the physical model in Postgres and save in JSON
 curl http://localhost:3000/api/v1/actions/dataSources/ps-gooddata-8731/scan \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
@@ -27,7 +27,7 @@ curl http://localhost:3000/api/v1/actions/dataSources/ps-gooddata-8731/scan \
 -X POST \
 -d '{"separator": "__", "scanTables": true, "scanViews": false}' > pdm.json
 
-# Upload the layout of the physical model to connect GoodData with Postgres
+# Upload the layout of the physical model found in Postgres and to connect GoodData
 curl http://localhost:3000/api/v1/layout/dataSources/ps-gooddata-8731/physicalModel \
   -H "Authorization: Bearer YWRtaW46Ym9vdHN0cmFwOmFkbWluMTIz" \
   -H "Content-Type: application/json" \
