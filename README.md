@@ -1,6 +1,9 @@
 # GoodData Tutorial
 GoodData is a great business intelligence tool for multi-tenancy use cases. However, GoodData offers a community edition (GoodData.CN) to be used without any charge for personal usage. Any action in GoodData.CN is made by calling declarative APIs to update the change in GoodData.CN. In this repository, we will go over how to use GoodData.CN to build your dashboard.
 
+## Basics
+Coming soon...
+
 ## Setup
 GoodData.CN community edition can be hosted via Docker and requires a database to query from. In the [Setup](/Setup) folder, you may find the instruction on how to setup both GoodData.CN and Postgres database with Docker.
 
