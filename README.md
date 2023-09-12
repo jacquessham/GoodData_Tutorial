@@ -11,6 +11,9 @@ GoodData.CN community edition can be hosted via Docker and requires a database t
 Once the GoodData.CN is running, the first step is to connect with a database. We will be using Postgres as the example database. You may find the instruction in the [Connection](/Connection) folder.
 
 ## Workspace Management
+Workspace is a basic unit in GoodData.CN, or a tenant within GoodData.CN. A workspace is where a group of users who have the same data access to interact and share analytics within the same environment. You may find the insturction of workspace management in the [Workspace](/Workspace) folder.
+
+## LDM
 Coming soon...
 
 ## MAQL
