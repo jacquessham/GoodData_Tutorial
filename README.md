@@ -13,8 +13,8 @@ Once the GoodData.CN is running, the first step is to connect with a database. W
 ## Workspace Management
 Workspace is a basic unit in GoodData.CN, or a tenant within GoodData.CN. A workspace is where a group of users who have the same data access to interact and share analytics within the same environment. You may find the insturction of workspace management in the [Workspace](/Workspace) folder.
 
-## LDM
-Coming soon...
+## Logical Data Model (LDM)
+The logical data model (LDM) is the required first step before doing any analytics in GoodData.CN. It defines what columns and data model relationship to be utilized in the workspace and map to the physical data model. You may find the instruction in the [LDM](/LDM) folder.
 
 ## MAQL
 Coming soon...
