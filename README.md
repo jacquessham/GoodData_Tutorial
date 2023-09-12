@@ -16,8 +16,8 @@ Workspace is a basic unit in GoodData.CN, or a tenant within GoodData.CN. A work
 ## Logical Data Model (LDM)
 The logical data model (LDM) is the required first step before doing any analytics in GoodData.CN. It defines what columns and data model relationship to be utilized in the workspace and map to the physical data model. You may find the instruction in the [LDM](/LDM) folder.
 
-## MAQL
-Coming soon...
+## Metrics/MAQL
+MAQL is a helpful tool to make simple or complex statistical calculations to create visualization. You may find how to create metrics with MAQL in the [MAQL](/MAQL) folder.
 
 ## Visualizations
 Coming soon...
